@@ -1,0 +1,48 @@
+/* Add a background color to the body */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Add a border and background color to the container */
+.download-container {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 2px 5px #ccc;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Add a font-size and color to the heading */
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Add a border and background color to the buttons */
+.download-btn-container {
+  text-align: left;
+}
+.download-btn {
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Add a hover effect to the buttons */
+.download-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Add a font-size and color to the text */
+p {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 20px;
+}

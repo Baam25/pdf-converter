@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+      <label for="files">Select files to convert:</label>
+      <input type="file" id="files" name="files" multiple>
+      <br>
+      <input type="submit" value="Convert">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Download Your Files</title>
+        <link rel="stylesheet" type="text/css" href="download.css">
+    </head>
+    <div class="download-container">
+        <div class="download-text-container">
+            <h1 class="download-text">Download your files</h1>
+        </div>
+        <div class="download-btn-container">
+            <% urls.forEach(function(url) { %>
+            <a href="<%= url %>" target="_blank">
+                <button class="download-btn">Download <%= url.split("/").pop().split("?")[0].replace(/%20|%28|%29|%5B|%5D/g, "") %></button>
+            </a>
+            <% }); %>
+        </div>
+        <div>
+            <p>Click the button to download the file</p>
+        </div>
+    </div>
+    
+        
+    </body>
+</html>
